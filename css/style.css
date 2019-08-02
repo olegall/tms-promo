@@ -1,0 +1,657 @@
+@media (min-width: 1200px) {
+    .mob-place {
+        margin-top: 9%;
+        margin-left: 5%;
+    }
+
+    .row > .text-free-update {
+        margin-left: -100px;
+        padding-top: 60px;
+    }
+
+    .price-per-workplace .col-md-6 .row .col-md-3 {
+        min-width: 142.5px;
+    }
+
+    .footer .col-md-12:last-child {
+        padding-top: 47%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .mob-place {
+        margin-top: 9%;
+        margin-left: 5%;
+    }
+
+    .after-address {
+        background: rgb(216, 244, 255);
+    }
+
+    .contacts > .col-sm {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    .row > .text-free-update {
+        margin-left: -50px;
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .headcontainer {
+        background: rgb(197, 206, 211);
+    }
+    
+    .row > .text-free-update {
+        margin-left: -30px;
+        padding-top: 60px;
+    }
+
+    .types-of-devices {
+        text-align: center;
+        width: 100%;
+    }
+
+    .after-address .col-sm {
+        margin-bottom: 20px;
+    }
+
+    .button-submit-claim {
+        text-align: center;
+    }
+
+    .row .licence {
+        padding-right: 85px;
+    }
+
+    .footer {
+        height: 642px;
+    }
+
+    .price-per-workplace .col-md-6 .row .col-md-3 {
+        min-width: 145.5px;
+    }
+
+    .mob-place {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .footer .col-md-12:last-child {
+        padding-top: 58%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .row .text-free-update {
+        margin-left: 0px;
+        padding-top: 60px;
+    }
+
+    .what-it-is-used-for {
+        font-size: 18px;
+        
+        line-height: 150%;
+        padding-top: 50px;
+    }
+
+    .price-per-workplace .col-md-6 .row {
+        margin-left: 10%;
+    }
+
+    .footer .col-md-12 .form-submit-an-application .row .col-md-3:nth-child(-n+3) {
+        min-width: 32%;
+    }
+
+    .footer .col-md-12 .form-submit-an-application .row .col-md-3:last-child { 
+        margin-top: 10px;
+        min-width: 97%;
+    }
+
+    .footer .col-md-12:last-child {
+        padding-top: 64%;
+    }
+
+    .row-mobile-app .what-it-is-used-for {
+        min-width: 600px;
+        height: 250px;
+        text-align: center;
+        border-right: none;
+    }
+
+    .mobile-app img {
+        width: 80%;
+    }
+
+    .mobile-app {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .advantages-system-part-1 > .col-md-4:last-child {
+        border-bottom: #d6d0d0 1.4px solid;
+    }
+
+    .what-it-is-used-for {
+        line-height: 200%;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: #d6d0d0 1.4px solid;
+        padding: 40px 0;
+    }
+
+    .row-mobile-app {
+        margin-top: 20px;
+    }
+
+    .our-advantages .col-md-3 {
+        border-top: #d6d0d0 1.4px solid;
+        border-collapse: collapse;
+    }
+
+    .price-per-workplace {
+        margin-left: 5%;
+    }
+
+    .price-per-workplace .col-md:nth-child(n+5){
+        margin-top: 3%;
+    }
+
+    .price-per-workplace .col-md-6 .row .col-md-3 {
+        min-width: 195px;
+    }
+    
+    .footer .col-md-12 .form-submit-an-application .row .col-md-3 {
+        margin-bottom: 10px;
+    }
+
+    .footer .col-md-12:last-child {
+        padding-top: 55%;
+        text-align: center;
+    }
+
+    .footer .col-md-12:last-child .row .col-md-4 span,
+    .footer .col-md-12:last-child .row .col-md-4 a:link {
+        color: black;
+        background: white;
+        font-size: 13px;
+    }
+}
+@media (min-width: 768px) {
+    .advantages-system-part-1 > .col-md-4 {
+        border-top: #d6d0d0 1.4px solid;
+        border-bottom: #d6d0d0 1.4px solid;
+    }
+
+    .advantages-system-part-1 > .col-md-4:nth-child(1),
+    .advantages-system-part-1 > .col-md-4:nth-child(2) {
+        border-right: #d6d0d0 1.4px solid;
+    }
+
+    .advantages-system-part-1 .col-md-3:nth-child(-n+3),
+    .advantages-system-part-2 .col-md-3:nth-child(-n+3) {
+        border-right: #d6d0d0 1.4px solid;
+    }
+
+    .what-it-is-used-for {
+        line-height: 200%;
+        font-size: 1.2rem;
+        border-right: #d6d0d0 1.4px solid;
+        border-bottom: #d6d0d0 1.4px solid;
+    }
+
+    .our-advantages .col-md-3-border-right {
+        border-right: #d6d0d0 1.4px solid;
+        border-collapse: collapse;
+    }
+
+    .tariff .col-md-5:last-child {
+        text-align: left;
+    }
+    
+    .tariff .col-md-5:first-child {
+        text-align: right;
+    }
+
+    .price-per-workplace .col-md hr {
+        background: none;
+        border-top: 1px solid black;
+    }
+
+    .footer .col-md-12:last-child .col-md-4:nth-child(2) {
+        text-align: center;
+    }
+
+    .footer .col-md-12:last-child .col-md-4:last-child {
+        text-align: right;
+    }
+}
+
+@media (min-width: 990px) {
+    .headcontainer {
+        background-image : url(../images/fon_1.jpg);
+        background-repeat: no-repeat;
+        padding-bottom: 11%;
+    }
+
+    .after-address {
+        background: url(../images/fon_2.png);
+    }
+
+    .what-it-is-used-for {
+        font-size: 1.3rem;
+        padding-top: 55px;
+        padding-left: 5%;
+    }
+
+    .footer {
+        height: 692px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .col-sm {
+        flex-basis: auto;
+    }
+
+    .price-per-workplace .col-md-6 .row .col-md-3 {
+        min-width: 195px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .price-per-workplace {
+        margin-left: 12%;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 767px) {
+    .contacts > 
+    .col-sm:nth-child(2) > .contacts-img, 
+    .col-sm:nth-child(3) > .contacts-img{
+        margin-left: 25%;
+    }
+
+    .contacts > 
+    .col-sm:nth-child(2) > div, 
+    .col-sm:nth-child(3) > div{
+        text-align: left;
+    }
+}
+
+@media (min-width: 419px) and (max-width: 561px) {
+    .contacts > 
+    .col-sm:nth-child(2) > .contacts-img, 
+    .col-sm:nth-child(3) > .contacts-img {
+        margin-left: 20%;
+    }
+
+    .contacts > 
+    .col-sm > .contacts-text {
+        text-align: left;
+    }
+}
+
+@media (min-width: 258px) and (max-width: 419px) {
+    .contacts > 
+    .col-sm:nth-child(2) > .contacts-img, 
+    .col-sm:nth-child(3) > .contacts-img{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 500px) { 
+    .price-per-workplace .col-md-6 .row .col-md-3 {
+        min-width: 195px;
+    }
+
+    .types-of-devices img{
+        width: 70%;
+        height: auto;
+    }
+}
+@media (min-width:400px) and (max-width: 435px) { 
+    .price-per-workplace {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 435px) { 
+    .price-per-workplace .col-md-6 .row .col-md-3 {
+        min-width: 145.5px;
+    }
+}
+
+@media (max-width: 418px) {
+    .contacts > 
+    .col-sm:nth-child(2) > .contacts-text, 
+    .col-sm:nth-child(3) > .contacts-text {
+        text-align: left;
+    }
+
+    .mob-place .col-md-12:last-child button {
+        width: 90%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .price-per-workplace .col-md-6 .row .col-md-3 {
+        min-width: 195px;
+    }
+
+    .price-per-workplace .col-md-6 .row {
+        margin-left: 15%;
+    }
+}
+
+body {
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contacts > .col-sm button {
+    background: #1175c0;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 35px;
+}
+
+.contacts > .header-col-sm {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contacts .col-sm:nth-child(3), 
+.header-col-sm:nth-child(2) {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.system-description .col-:first-child {
+    margin-top: 15px;
+}
+
+
+.title-tariff {
+    margin-top: 20px;
+}
+
+@media (max-width: 575px) {
+    .contacts > 
+    .col-sm:nth-child(2), 
+    .col-sm:nth-child(3) {
+        text-align: center;
+    }
+}
+
+@media (max-width: 487px) {
+    .button-submit-an-application {
+        margin-top: 10px;
+
+    }
+
+    .form-submit-an-application {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 344px) { 
+    .price-per-workplace {
+        margin-left: 0;
+    }
+}
+
+.contacts .col-sm:last-child {
+    padding-top: 50px;
+    font-size: 13px;
+}
+
+.contacts > .col-sm > .logo-BIT {
+    padding-left: 15px;
+}
+
+.logo-BIT {
+    max-width: 185px;
+    height: auto;
+}
+
+.mob-place .col-md-12 {
+    margin-bottom: 20px;
+}
+
+.after-address > .col-sm {
+    text-align: center;
+}
+
+.system-description > p {
+    font-size: 18px;
+    color: #8e8e8e;
+    line-height: 250%;
+}
+
+.system-description h1 {
+    font-size: 30px;
+    line-height: 150%;
+}
+
+.contacts > .col-sm > .contacts-img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.advantages-system-part-1,
+.advantages-system-part-2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.advantages-system-part-1 .col-md-3:nth-child(2),
+.advantages-system-part-2 .col-md-3:nth-child(2)
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.advantages-system-part-1 .col-md-3,
+.advantages-system-part-2 .col-md-3 {
+    padding: 5% 0;
+    border-collapse: collapse;
+}
+
+.advantages-system-part-1 > .col-md-3 {
+    border-top: #d6d0d0 1.4px solid;
+}
+
+.advantages-system-part-2 > .col-md-3,
+.advantages-system-part-1 > .col-md-3 {
+    border-bottom: #d6d0d0 1.4px solid;
+}
+
+.free-update > .col-md-9:first-child {
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.row > .img-free-update {
+    width: 350px;
+}
+
+.free-update > .button-submit-claim {
+    padding-top: 55px;
+}
+
+.mobile-app {
+    background: #d6f4ff;
+    text-align: right;
+    font-size: 18px;
+    border-bottom: #d6d0d0 1.4px solid;
+}
+
+.mobile-app img{
+    width: 100%;
+    height: auto;
+}
+
+.row-mobile-app {
+    border-top: #d6d0d0 1.4px solid;
+}
+
+.our-advantages {
+    text-align: center;
+    border-bottom: #d6d0d0 1.4px solid;
+}
+
+.our-advantages .col-md-3 {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.col-md-3-border-right:nth-child(n+4),
+.guarantee-img {
+    border-top: #d6d0d0 1.4px solid;
+}
+
+.title-our-advantages {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    margin: 3% 0;
+}
+
+.our-advantages .col-md-3 {
+    padding: 25px;
+}
+
+.tariff {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-tariff {
+    font-size: 36px;
+    font-family: "Times New Roman";
+    font-weight: normal;
+}
+
+.tariff .col-md-5 span.price {
+    font-size: 34px;
+    font-weight: 750;
+    text-align: center;
+    letter-spacing: -2px;
+    line-height: 150%;
+}
+
+.tariff .col-md-5 span {
+    text-align: center;
+}
+
+.tariff .col-md-5,
+.tariff .col-md-2 {
+    font-size: 16px;
+    padding-top: 5%;
+}
+
+.tariff .techsupport {
+    padding-top: 3%;
+}
+
+.row .licence {
+    margin: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.price-per-workplace .col-md-6 .row .col-md-3 {
+    padding-bottom: 10px;
+}
+
+.price-per-workplace .col-md-6 .row .col-md-3 hr {
+    font-weight: 550;
+    background: #9a9a9a;
+    width: 100%;
+    margin: 0;
+}
+
+.price-per-workplace .col-md-6 .row .col-md-3 span.number-of-seats {
+    font-size: 28px;
+    font-weight: 750;
+}
+
+.price-per-workplace .col-md-6 .row .col-md-3 span.price-for-seats {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.price-per-workplace .col-md-6 .row .col-md-3 {
+    width: 142.5px;
+    text-align: center;
+}
+
+.footer {
+    background: url(../images/fon_6.jpg) center no-repeat;
+    padding-top: 5%;
+}
+
+.form-submit-an-application {
+    margin-left: 5%;
+    text-align: center;
+}
+
+.form-submit-an-application input {
+    padding-left: 15px;
+    font-size: 18px;
+    height: 50px;
+    border: 1px solid #c3c3c3;
+}
+
+.footer .col-md-12 .row .col-md-4 {
+    font-size: 12px;
+}
+
+.footer .col-md-12 .row .col-md-4 a:link {
+    color: black;
+}
+
+.footer .col-md-12 .row .col-md-4 a:hover {
+    color: blue;
+}
+
+.button-submit-an-application,
+.submit-claim {
+    height: 50px;
+    width: 190px;
+    background: #1175c0;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.user-data .col-md-3 {
+    padding: 0;
+}
+
+.toTop {
+    text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:30px;
+	right:10px;
+	cursor:pointer;
+	display:none;
+	color:#333;
+	font-family:verdana;
+	font-size:11px;
+}
