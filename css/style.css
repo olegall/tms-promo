@@ -655,3 +655,100 @@ h1 {
 	font-family:verdana;
 	font-size:11px;
 }
+
+/*Стили для слайдера --Начало--*/
+
+.slider-web {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slider-wrapper {
+      display: flex;
+      transition: transform 0.6s ease;
+    }
+
+    .slider-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .slider-control {
+      position: absolute;
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.5%;
+      color: #fff;
+      text-align: center;
+      opacity: 0.5;
+      height: 5%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, .5);
+    }
+
+    .slider-control:hover,
+    .slider-control:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: 0;
+      opacity: .9;
+    }
+
+    .slider-control-left {
+      left: 0;
+    }
+
+    .slider-control-right {
+      right: 0;
+    }
+
+    .slider-control::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    .slider-control-left::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider-control-right::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .slider-item > img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+    }
+
+    @media (min-width: 1250px) {
+      .slider-item > img {
+        padding-left: 15%;
+      }
+    }
+
+    @media (min-width: 1100px) and (max-width: 1249px) {
+      .slider-item > img {
+        padding-left: 10%;
+      }
+    }
+
+    @media (min-width: 990px) and (max-width: 1099px) {
+      .slider-item > img {
+        padding-left: 5%;
+      }
+    }
+
+    @media (min-width: 929px) and (max-width: 989px) {
+      .slider-item > img {
+        padding-left: 1.5%;
+      }
+    }
+
+/*Стили для слайдера --Конец--*/
