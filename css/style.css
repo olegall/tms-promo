@@ -658,9 +658,14 @@ h1 {
 
 /*Стили для слайдера --Начало--*/
 
-.slider-web {
+    .slider-web {
       position: relative;
       overflow: hidden;
+    }
+
+    .slider-title {
+        text-align: center;
+        font-size: 24px;
     }
 
     .slider-wrapper {
