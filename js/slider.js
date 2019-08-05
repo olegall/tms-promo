@@ -1,6 +1,6 @@
 'use strict';
 
-document.querySelector(".slider-title").innerText = document.getElementsByClassName('slider-item')[0].attributes[2].value;
+document.querySelector(".slider-title").innerText = document.getElementsByClassName('slider-item')[0].attributes[1].value;
 
 function multiItemSlider (wrapper,item,title,buttonControls) {
   const sliderWrapper = document.querySelector(wrapper),
@@ -54,7 +54,7 @@ function multiItemSlider (wrapper,item,title,buttonControls) {
         positionLeftItem++;
         itemsNumber++;
         if(itemsNumber < sliderItems.length && itemsNumber >= 0) 
-          sliderTitle.innerText = sliderItems[itemsNumber].attributes[2].value;
+          sliderTitle.innerText = sliderItems[itemsNumber].attributes[1].value;
 
         if ((positionLeftItem + wrapperWidth / itemWidth - 1) > position.getMax()) {
           nextItem = position.getItemMin();
@@ -65,7 +65,7 @@ function multiItemSlider (wrapper,item,title,buttonControls) {
 
         if(itemsNumber > sliderItems.length - 1 && itemsNumber >= 0) {
           itemsNumber = 0;
-          sliderTitle.innerText = sliderItems[itemsNumber].attributes[2].value;
+          sliderTitle.innerText = sliderItems[itemsNumber].attributes[1].value;
         }
         transform -= step;
       }
@@ -75,11 +75,11 @@ function multiItemSlider (wrapper,item,title,buttonControls) {
         itemsNumber--;
         if(itemsNumber < sliderItems.length && itemsNumber < 0) {
           itemsNumber = sliderItems.length - 1;
-          sliderTitle.innerText = sliderItems[itemsNumber].attributes[2].value;
+          sliderTitle.innerText = sliderItems[itemsNumber].attributes[1].value;
         }
 
         if(itemsNumber < sliderItems.length && itemsNumber >= 0) {
-          sliderTitle.innerText = sliderItems[itemsNumber].attributes[2].value;
+          sliderTitle.innerText = sliderItems[itemsNumber].attributes[1].value;
         }
 
         if (positionLeftItem < position.getMin()) {

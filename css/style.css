@@ -707,36 +707,6 @@ h1 {
     .slider-control-right {
       right: 0;
     }
-    
-    @media (min-width: 1200px) and (max-width: 1300px) {
-        .slider-control-left {
-            left: 5%;
-          }
-      
-        .slider-control-right {
-            right: 5%;
-        }
-    }
-
-    @media (min-width: 1300px) and (max-width: 1600px) {
-        .slider-control-left {
-            left: 10%;
-          }
-      
-        .slider-control-right {
-            right: 10%;
-        }
-    }
-
-    @media (min-width: 1600px) {
-        .slider-control-left {
-            left: 15%;
-          }
-      
-        .slider-control-right {
-            right: 15%;
-        }
-    }
 
     .slider-control::before {
       content: '';
@@ -756,51 +726,10 @@ h1 {
     }
 
     .slider-item > img {
-      display: block;
       height: auto;
       max-width: 100%;
+      padding: 10px 5%;
     }
 
-    @media (min-width: 1700px) {
-        .slider-item > img {
-            padding-left: 25%;
-        }
-    }
-
-    @media (min-width: 1510px) and (max-width: 1700px) {
-        .slider-item > img {
-            padding-left: 20%;
-        }
-    }
-
-    @media (min-width: 1400px) and (max-width: 1509px) {
-        .slider-item > img {
-            padding-left: 20%;
-        }
-    }
-
-    @media (min-width: 1260px) and (max-width: 1399px) {
-      .slider-item > img {
-        padding-left: 15%;
-      }
-    }
-
-    @media (min-width: 1100px) and (max-width: 1259px) {
-      .slider-item > img {
-        padding-left: 10%;
-      }
-    }
-
-    @media (min-width: 990px) and (max-width: 1099px) {
-      .slider-item > img {
-        padding-left: 5%;
-      }
-    }
-
-    @media (min-width: 929px) and (max-width: 989px) {
-      .slider-item > img {
-        padding-left: 1.5%;
-      }
-    }
 
 /*Стили для слайдера --Конец--*/
