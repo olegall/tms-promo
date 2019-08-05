@@ -1,7 +1,6 @@
 'use strict';
 
-let multiItemSlider = (function () {
-  return function (selector) {
+function multiItemSlider (selector) {
     let
       mainElement = document.querySelector(selector), // основный элемент блока
       sliderWrapper = mainElement.querySelector('.slider-wrapper'), // обертка для .slider-item
@@ -105,7 +104,7 @@ let multiItemSlider = (function () {
       transformItem(direction);
     };
 
-    let _setUpListeners = function () {
+    let setUpListeners = function () {
       // добавление к кнопкам "назад" и "вперед" обработчика controlClick для события click
       sliderControls.forEach(function (item) {
         item.addEventListener('click', controlClick);
@@ -113,7 +112,7 @@ let multiItemSlider = (function () {
     }
 
     // инициализация
-    _setUpListeners();
+    setUpListeners();
 
     return {
       right: function () { // метод right
@@ -125,6 +124,5 @@ let multiItemSlider = (function () {
     }
 
   }
-}());
 
-let slider = multiItemSlider('.slider-web');
+multiItemSlider('.slider-web');
