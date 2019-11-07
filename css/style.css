@@ -134,7 +134,7 @@
 }
 
 @media (max-width: 767px) {
-    .advantages-system-part-1 > .col-md-4:last-child {
+    .advantages1 > .col-md-4:last-child {
         border-bottom: #d6d0d0 1.4px solid;
     }
 
@@ -148,11 +148,6 @@
 
     .row-mobile-app {
         margin-top: 20px;
-    }
-
-    .our-advantages .col-md-3 {
-        border-top: #d6d0d0 1.4px solid;
-        border-collapse: collapse;
     }
 
     .price-per-workplace {
@@ -184,18 +179,18 @@
     }
 }
 @media (min-width: 768px) {
-    .advantages-system-part-1 > .col-md-4 {
+    .advantages1 > .col-md-4 {
         border-top: #d6d0d0 1.4px solid;
         border-bottom: #d6d0d0 1.4px solid;
     }
 
-    .advantages-system-part-1 > .col-md-4:nth-child(1),
-    .advantages-system-part-1 > .col-md-4:nth-child(2) {
+    .advantages1 > .col-md-4:nth-child(1),
+    .advantages1 > .col-md-4:nth-child(2) {
         border-right: #d6d0d0 1.4px solid;
     }
 
-    .advantages-system-part-1 .col-md-3:nth-child(-n+3),
-    .advantages-system-part-2 .col-md-3:nth-child(-n+3) {
+    .advantages1 .col-md-3:nth-child(-n+3),
+    .advantages2 .col-md-3:nth-child(-n+3) {
         border-right: #d6d0d0 1.4px solid;
     }
 
@@ -204,11 +199,6 @@
         font-size: 1.2rem;
         border-right: #d6d0d0 1.4px solid;
         border-bottom: #d6d0d0 1.4px solid;
-    }
-
-    .our-advantages .col-md-3-border-right {
-        border-right: #d6d0d0 1.4px solid;
-        border-collapse: collapse;
     }
 
     .tariff .col-md-5:last-child {
@@ -358,7 +348,7 @@ h1 {
     text-align: center;
 }
 
-.contacts > .col-sm button {
+.contacts button {
     background: #1175c0;
     color: white;
     border: none;
@@ -366,7 +356,7 @@ h1 {
     height: 35px;
 }
 
-.contacts > .header-col-sm {
+.header-col-sm {
     text-align: center;
     padding-top: 40px;
 }
@@ -452,33 +442,58 @@ h1 {
     float: left;
 }
 
-.advantages-system-part-1,
-.advantages-system-part-2 {
+.advantages1,
+.advantages2 {
     text-align: center;
     font-size: 22px;
 }
 
-.advantages-system-part-1 .col-md-3:nth-child(2),
-.advantages-system-part-2 .col-md-3:nth-child(2)
+.advantages1 .col-md-3:nth-child(2),
+.advantages2 .col-md-3:nth-child(2)
 {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.advantages-system-part-1 .col-md-3,
-.advantages-system-part-2 .col-md-3 {
+.advantages1 .col-md-3,
+.advantages2 .col-md-3 {
     padding: 5% 0;
     border-collapse: collapse;
 }
 
-.advantages-system-part-1 > .col-md-3 {
+.advantages1 > .col-md-3 {
     border-top: #d6d0d0 1.4px solid;
 }
 
-.advantages-system-part-2 > .col-md-3,
-.advantages-system-part-1 > .col-md-3 {
+.advantages2 > .col-md-3,
+.advantages1 > .col-md-3 {
     border-bottom: #d6d0d0 1.4px solid;
 }
+/*
+.advantages {
+    text-align: center;
+    font-size: 22px;
+}
+
+.advantages .col-md-3:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.advantages .col-md-3 {
+    padding: 5% 0;
+    border-collapse: collapse;
+}
+
+.advantages:first-child > .col-md-3 {
+    border-top: #d6d0d0 1.4px solid;
+}
+
+.advantages > .col-md-3{
+    border-bottom: #d6d0d0 1.4px solid;
+}*/
+
+
 
 .free-update > .col-md-9:first-child {
     font-size: 18px;
@@ -509,16 +524,6 @@ h1 {
     border-top: #d6d0d0 1.4px solid;
 }
 
-.our-advantages {
-    text-align: center;
-    border-bottom: #d6d0d0 1.4px solid;
-}
-
-.our-advantages .col-md-3 {
-    font-size: 18px;
-    vertical-align: middle;
-}
-
 .col-md-3-border-right:nth-child(n+4),
 .guarantee-img {
     border-top: #d6d0d0 1.4px solid;
@@ -529,10 +534,6 @@ h1 {
     font-size: 30px;
     letter-spacing: 0.2px;
     margin: 3% 0;
-}
-
-.our-advantages .col-md-3 {
-    padding: 25px;
 }
 
 .tariff {
