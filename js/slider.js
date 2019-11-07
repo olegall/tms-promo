@@ -1,8 +1,9 @@
 'use strict';
 
-document.querySelector(".slider-title").innerText = document.getElementsByClassName('slider-item')[0].attributes[1].value;
+document.querySelector(".slider-title-web").innerText = document.getElementsByClassName('slider-item-web')[0].attributes[1].value;
+document.querySelector(".slider-title-mobile").innerText = document.getElementsByClassName('slider-item-mobile')[0].attributes[1].value;
 
-function multiItemSlider (wrapper,item,title,buttonControls) {
+function multiItemSlider (wrapper,item,title,buttonControls,buttonControlRight) {
   const sliderWrapper = document.querySelector(wrapper),
         sliderItems = document.querySelectorAll(item), 
         sliderTitle = document.querySelector(title),
@@ -96,7 +97,7 @@ function multiItemSlider (wrapper,item,title,buttonControls) {
 
     // обработчик события click для кнопок "назад" и "вперед"
     let controlClick = function (e) {
-      var direction = this.classList.contains('slider-control-right') ? 'right' : 'left';
+      var direction = this.classList.contains(buttonControlRight) ? 'right' : 'left';
       e.preventDefault();
       transformItem(direction);
     };
@@ -122,4 +123,5 @@ function multiItemSlider (wrapper,item,title,buttonControls) {
 
   }
 
-multiItemSlider('.slider-wrapper','.slider-item','.slider-title','.slider-control');
+multiItemSlider('.slider-wrapper','.slider-item-web','.slider-title-web','.slider-control-web','slider-control-right-web');
+multiItemSlider('.slider-wrapper-mobile','.slider-item-mobile','.slider-title-mobile','.slider-control-mobile','slider-control-right-mobile');

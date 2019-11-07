@@ -658,17 +658,88 @@ h1 {
 
 /*Стили для слайдера --Начало--*/
 
-    .slider-web {
+    .slider {
       position: relative;
       overflow: hidden;
+      padding: 0;
     }
 
     .slider-title {
+        position: absolute;
+        top: 0;
+        z-index: 1;
         text-align: center;
         font-size: 28px;
+        background: white;
     }
 
-    .slider-wrapper {
+    @media (min-width: 1000px){
+        .slider-title {
+            left: 40%
+        } 
+    }
+
+    @media (min-width: 768px) and (max-width: 1000px){
+        .slider-title {
+            left: 38%
+        } 
+    }
+
+    @media (max-width: 767px) and (min-width: 546px) {
+        .slider-title {
+            left: 34%
+        } 
+    }
+
+    @media (max-width: 545px) and (min-width: 500px) {
+        .slider-title {
+            left: 33%
+        } 
+    }
+
+    @media (max-width: 500px) and (min-width: 475px) {
+        .slider-title {
+            left: 32%
+        } 
+    }
+
+    @media (max-width: 475px) and (min-width: 410px) {
+        .slider-title {
+            left: 31%
+        } 
+    }
+
+    @media (max-width: 410px) and (min-width: 350px) {
+        .slider-title {
+            left: 30%
+        } 
+    }
+
+    @media (max-width: 350px) and (min-width: 320px) {
+        .slider-title {
+            left: 25%
+        } 
+    }
+
+    @media (max-width: 320px) and (min-width: 300px) {
+        .slider-title {
+            left: 23%
+        } 
+    }
+
+    @media (max-width: 300px) and (min-width: 280px) {
+        .slider-title {
+            left: 20%
+        } 
+    }
+
+    @media (max-width: 280px) {
+        .slider-title {
+            left: 15%
+        } 
+    }
+
+    .slider-wrapper{
       display: flex;
       transition: transform 0.6s ease;
     }
@@ -728,7 +799,6 @@ h1 {
     .slider-item > img {
       height: auto;
       max-width: 100%;
-      padding: 10px 5%;
     }
 
 
