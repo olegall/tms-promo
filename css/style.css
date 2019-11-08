@@ -3,15 +3,11 @@ h1 {
     font-size: 30px;
     letter-spacing: 0.2px;
     margin: 3% 0;
+	text-transform: uppercase;
 }
-
 
 body {
     font-family: arial;
-}
-
-h1 {
-    text-align: center;
 }
 
 .contacts button {
@@ -34,11 +30,9 @@ h1 {
     margin-top: 10px;
 }
 
-
 .system-description .col-:first-child {
     margin-top: 15px;
 }
-
 
 .title-tariff {
     margin-top: 20px;
@@ -83,56 +77,21 @@ h1 {
     float: left;
 }
 
-.advantages1,
-.advantages2 {
-    text-align: center;
-    font-size: 22px;
-}
-
-.advantages1 .col-md-3:nth-child(2),
-.advantages2 .col-md-3:nth-child(2)
-{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.advantages1 .col-md-3,
-.advantages2 .col-md-3 {
-    padding: 5% 0;
-    border-collapse: collapse;
-}
-
-.advantages1 > .col-md-3 {
-    border-top: #d6d0d0 1.4px solid;
-}
-
-.advantages2 > .col-md-3,
-.advantages1 > .col-md-3 {
-    border-bottom: #d6d0d0 1.4px solid;
-}
-/*
 .advantages {
     text-align: center;
     font-size: 22px;
 }
-
-.advantages .col-md-3:nth-child(2) {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .advantages .col-md-3 {
     padding: 5% 0;
     border-collapse: collapse;
+    border-top: #d6d0d0 1.4px solid;	
+    border-bottom: #d6d0d0 1.4px solid;	
 }
-
-.advantages:first-child > .col-md-3 {
-    border-top: #d6d0d0 1.4px solid;
+.advantages .col-md-3:nth-child(2)
+{
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-.advantages > .col-md-3{
-    border-bottom: #d6d0d0 1.4px solid;
-}*/
 
 
 
@@ -578,7 +537,7 @@ h1 {
 }
 
 @media (max-width: 767px) {
-    .advantages1 > .col-md-4:last-child {
+    .advantages > .col-md-4:last-child {
         border-bottom: #d6d0d0 1.4px solid;
     }
 
@@ -623,18 +582,14 @@ h1 {
     }
 }
 @media (min-width: 768px) {
-    .advantages1 > .col-md-4 {
+    .advantages > .col-md-4 {
         border-top: #d6d0d0 1.4px solid;
         border-bottom: #d6d0d0 1.4px solid;
     }
 
-    .advantages1 > .col-md-4:nth-child(1),
-    .advantages1 > .col-md-4:nth-child(2) {
-        border-right: #d6d0d0 1.4px solid;
-    }
-
-    .advantages1 .col-md-3:nth-child(-n+3),
-    .advantages2 .col-md-3:nth-child(-n+3) {
+    .advantages > .col-md-4:nth-child(1),
+    .advantages > .col-md-4:nth-child(2),
+	.advantages .col-md-3:nth-child(-n+3) {
         border-right: #d6d0d0 1.4px solid;
     }
 
