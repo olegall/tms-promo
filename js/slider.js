@@ -1,7 +1,6 @@
 'use strict';
 
 document.querySelector(".slider-title-web").innerText = document.getElementsByClassName('slider-item-web')[0].attributes[1].value;
-document.querySelector(".slider-title-mobile").innerText = document.getElementsByClassName('slider-item-mobile')[0].attributes[1].value;
 
 function multiItemSlider (wrapper,item,title,buttonControls,buttonControlRight) {
   const sliderWrapper = document.querySelector(wrapper),
@@ -124,4 +123,3 @@ function multiItemSlider (wrapper,item,title,buttonControls,buttonControlRight) 
   }
 
 multiItemSlider('.slider-wrapper','.slider-item-web','.slider-title-web','.slider-control-web','slider-control-right-web');
-multiItemSlider('.slider-wrapper-mobile','.slider-item-mobile','.slider-title-mobile','.slider-control-mobile','slider-control-right-mobile');
