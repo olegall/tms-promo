@@ -49,6 +49,10 @@ body {
     height: auto;
 }
 
+.mob-place {
+	margin-top: 9%;
+	margin-left: 5%;
+}
 .mob-place .col-md-12 {
     margin-bottom: 20px;
 }
@@ -252,11 +256,6 @@ body {
 }
 
 
-._1s {
-	width: 1140px;
-	margin: 0 auto;
-}
-
 ._1s img{
 	display: block;
 	margin: 0 auto;
@@ -269,18 +268,19 @@ body {
     padding: 0;
   }
 
-.slider2 img:first-child{
-	margin-left: 100px;	
+.slider2 img {
+	display: block;
+	margin: 0 auto;
 }
 
-  .slider-title {
-      position: absolute;
-      top: 0;
-      z-index: 1;
-      text-align: center;
-      font-size: 28px;
-      background: white;
-  }
+.slider-title {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+  font-size: 28px;
+  background: white;
+}
 
   @media (min-width: 1000px){
       .slider-title {
@@ -412,26 +412,19 @@ body {
 /*Стили для слайдера --Конец--*/
 
 
-
-@media (min-width: 1200px) {
-    .mob-place {
-        margin-top: 9%;
-        margin-left: 5%;
-    }
-
-    .row > .text-free-update {
-        margin-left: -100px;
-        padding-top: 60px;
-    }
-
-    .price-per-workplace .col-md-6 .row .col-md-3 {
-        min-width: 142.5px;
-    }
-
-    .footer .col-md-12:last-child {
-        padding-top: 47%;
-    }
+.row > .text-free-update {
+	margin-left: -100px;
+	padding-top: 60px;
 }
+
+.price-per-workplace .col-md-6 .row .col-md-3 {
+	min-width: 142.5px;
+}
+
+.footer .col-md-12:last-child {
+	padding-top: 47%;
+}
+
 
 @media (max-width: 1199px) {
     .mob-place {
@@ -453,6 +446,10 @@ body {
         margin-left: -50px;
         padding-top: 60px;
     }
+	
+	._1s img {
+		width: 90%;
+	}
 }
 
 @media (max-width: 991px) {
@@ -463,11 +460,6 @@ body {
     .row > .text-free-update {
         margin-left: -30px;
         padding-top: 60px;
-    }
-
-    .types-of-devices {
-        text-align: center;
-        width: 100%;
     }
 
     .after-address .col-sm {
@@ -493,12 +485,6 @@ body {
     .mob-place {
         text-align: center;
         margin-left: 0;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-    .footer .col-md-12:last-child {
-        padding-top: 58%;
     }
 }
 
@@ -592,6 +578,10 @@ body {
         background: white;
         font-size: 13px;
     }
+	
+	.contacts-img {
+		margin-left: 100px;
+	}
 }
 @media (min-width: 768px) {
     .advantages > .col-md-4 {
@@ -656,33 +646,9 @@ body {
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .col-sm {
-        flex-basis: auto;
-    }
-
-    .price-per-workplace .col-md-6 .row .col-md-3 {
-        min-width: 195px;
-    }
-}
-
 @media (min-width: 500px) and (max-width: 767px) {
     .price-per-workplace {
         margin-left: 12%;
-    }
-}
-
-@media (min-width: 561px) and (max-width: 767px) {
-    .contacts > 
-    .col-sm:nth-child(2) > .contacts-img, 
-    .col-sm:nth-child(3) > .contacts-img{
-        margin-left: 25%;
-    }
-
-    .contacts > 
-    .col-sm:nth-child(2) > div, 
-    .col-sm:nth-child(3) > div{
-        text-align: left;
     }
 }
 
@@ -699,45 +665,9 @@ body {
     }
 }
 
-@media (min-width: 258px) and (max-width: 419px) {
-    .contacts > 
-    .col-sm:nth-child(2) > .contacts-img, 
-    .col-sm:nth-child(3) > .contacts-img{
+@media (max-width: 419px) {
+	.contacts-img{
         margin-left: 15%;
-    }
-}
-
-@media (max-width: 500px) { 
-    .price-per-workplace .col-md-6 .row .col-md-3 {
-        min-width: 195px;
-    }
-
-    .types-of-devices img{
-        width: 70%;
-        height: auto;
-    }
-}
-@media (min-width:400px) and (max-width: 435px) { 
-    .price-per-workplace {
-        margin-left: 15%;
-    }
-}
-
-@media (max-width: 435px) { 
-    .price-per-workplace .col-md-6 .row .col-md-3 {
-        min-width: 145.5px;
-    }
-}
-
-@media (max-width: 418px) {
-    .contacts > 
-    .col-sm:nth-child(2) > .contacts-text, 
-    .col-sm:nth-child(3) > .contacts-text {
-        text-align: left;
-    }
-
-    .mob-place .col-md-12:last-child button {
-        width: 90%;
     }
 }
 
@@ -748,31 +678,5 @@ body {
 
     .price-per-workplace .col-md-6 .row {
         margin-left: 15%;
-    }
-}
-
-
-@media (max-width: 575px) {
-    .contacts > 
-    .col-sm:nth-child(2), 
-    .col-sm:nth-child(3) {
-        text-align: center;
-    }
-}
-
-@media (max-width: 487px) {
-    .button-submit-an-application {
-        margin-top: 10px;
-
-    }
-
-    .form-submit-an-application {
-        margin-left: 30%;
-    }
-}
-
-@media (max-width: 344px) { 
-    .price-per-workplace {
-        margin-left: 0;
     }
 }
