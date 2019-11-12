@@ -54,7 +54,7 @@ body {
 }
 
 .after-address {
-	margin-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 .after-address > .col-sm {
@@ -252,20 +252,6 @@ body {
 }
 
 
-
-.mobile{
-	width: 1140px;
-	margin: 0 auto;
-}
-
-.mobile .col-lg-3{
-	padding: 0;
-	margin: 0 20px 0 20px;
-}
-.mobile .col-lg-3:first-child{
-	margin-left: 100px;
-}
-
 ._1s {
 	width: 1140px;
 	margin: 0 auto;
@@ -282,6 +268,10 @@ body {
     overflow: hidden;
     padding: 0;
   }
+
+.slider2 img:first-child{
+	margin-left: 100px;	
+}
 
   .slider-title {
       position: absolute;
