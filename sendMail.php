@@ -5,12 +5,14 @@ $name     = $_POST['name'];
 $phone    = $_POST['phone'];
 $email    = $_POST['email'];
 
-$address = "marketing@bit-it.ru, mic.v.romanov@gmail.com, eduardf@bit-it.ru, bit@bit-it.ru, aleynikov.oleg@gmail.com";
+$address = "marketing@bit-it.ru, aleynikov.oleg@gmail.com";
 
-$subject = 'Запрос с сайта БИТ Аудитор';
+$subject = 'Запрос с сайта БИТ TMS';
 $e_subject = '=?utf-8?B?'.base64_encode($subject).'?=';
 
-$msg = 'Имя: '.$name."\n".'Тел.: '.$phone."\n".'E-mail: '.$email;
+$msg = "С формы сообщения на лэндинге пишет $name" . PHP_EOL .
+	   'Тел.: '.$phone."\n".
+	   "Email $email";
 
 $headers = "From: no-reply@bit-it.ru" . PHP_EOL;
 $headers .= "Reply-To: $email" . PHP_EOL;
